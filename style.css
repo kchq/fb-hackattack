@@ -14,8 +14,27 @@ body, input {
 }
 
 
-img {
+#state_picture {
   height: 220px;
+}
+
+#welcome {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+#welcome h1 {
+  font-size: 2em;
+}
+
+#welcome h2 {
+  font-size: 1em;
+}
+
+#login {
+  margin-top: 45px;
 }
 
 p {

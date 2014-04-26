@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/kchq/fb-hackattack/issues"
   },
-  "homepage": "https://github.com/kchq/fb-hackattack"
+  "homepage": "https://github.com/kchq/fb-hackattack",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.1.0"
+  }
 }

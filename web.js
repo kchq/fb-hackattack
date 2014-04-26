@@ -1,4 +1,4 @@
-/*var http = require('http'),
+var http = require('http'),
     fs = require('fs');
 
 
@@ -13,8 +13,7 @@ fs.readFile('./index.html', function (err, html) {
 	    }).listen(8000);
     });
 
-*/
-var express = require('express');
+/*var express = require('express');
 var app = express();
 var site = require('./site');
 

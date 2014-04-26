@@ -1,5 +1,9 @@
 window.onload=function(){
+  // hook up to facebook
+
 };
+
+
 
 // process response from text box
 function processResponse() {

@@ -8,7 +8,14 @@ app.get('/', function(req, res) {
 	res.send('Hello World!');
     });
 
+app.get('/kq', function(req, res) {
+	res.render('kq', {
+		title: 'KQ'
+		    });
+    });
+
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function() {
 	console.log("Listening on " + port);
     });
+

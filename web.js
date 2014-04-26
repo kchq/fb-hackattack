@@ -4,11 +4,11 @@ var app = express();
 
 app.use(logfmt.requestLogger());
 
-app.get('/', function(req, res) {
-	res.send('Hello World!');
-    });
+//app.get('/', function(req, res) {
+//	res.send('Hello World!');
+//    });
 
-app.get('/kq', function(req, res) {
+app.get('/', function(req, res) {
 	res.render('kq', {
 		title: 'KQ'
 		    });

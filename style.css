@@ -1,0 +1,45 @@
+body, input {
+  background-color: black;
+  color: #00FF00;
+  font-family: "Courier New", "Andale mono", monospace;
+  font-size: 2em;
+}
+
+#main_window {
+  position: relative;
+  width: 700px;
+  margin: auto;
+  height: 600px;
+  border: 5px solid yellow;
+}
+
+
+img {
+  height: 220px;
+}
+
+p {
+  border: 2px solid yellow;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+input {
+  border: 0px;
+  width: 700px;
+  font-size: 40px;
+  border: 2px solid yellow;
+}
+
+#story_box {
+  margin: 5px 0px 10px 0px;
+  text-align: center;
+}
+
+#typing_box {
+  position: absolute;
+  left: 0px;
+  top: 500px;
+}
